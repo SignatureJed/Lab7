@@ -51,7 +51,7 @@ int main ()
     {
         cout << "Enter your property: ";
         cin >> property;
-        if (property>=10000000)
+        if (property>10000000)
         {
             status="BEST FRIEND";
         }else
